@@ -2,7 +2,7 @@
       async function getVisitorIP() {
         try {
         // Send a request to the ipify API
-          fetch('https://api.example.com/data')
+          fetch('https://api.ipify.net/format?=json')
                 .then(response => response.json()) // This handles the JSON parsing
                 .then(data => {
                     console.log(data); // 'data' is already a JavaScript object
